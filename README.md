@@ -1,5 +1,5 @@
-# Contador ⏰
+# To-Do List ⏰
 
 <div>
-Primeiro pojeto em JavaScript
+Neste commit o desafio é criar uma lista de tareas
 </div>

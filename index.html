@@ -5,19 +5,30 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <title>Segunda Aula de JS</title>
+    <link rel="shortcut icon" href="https://cdn-icons-png.flaticon.com/512/2721/2721299.png" type="image/x-icon">
+    <title>To-Do List</title>
 
     <link rel="stylesheet" href="assets/css/style.css">
 </head>
 
 <body>
-    <h1>Contador</h1>
-    <p>Clique para iniciar o contador</p>
-    <div id="align-contador">
-        <button id="btn-subtracao" onclick="decrement()">-</button>
-        <span id="currentNumber">0</span>
-        <button id="btn-soma" onclick="increment()">+</button>
-    </div>
+
+    <header>
+        <h1>Lista de tarefas</h1>
+    </header>
+
+    <main>
+        <form name="form-tarefas" id="formTarefas">
+            <input type="text" name="txtNovaTarefa" id="txtNovaTarefa" class="textbox">
+            <button type="submit" id="btnAdicionar">Adicionar</button>
+        </form>
+        <div id="tarefas" class="tarefas">
+            <p>
+                <input type="checkbox" name="teste1" id="teste1">
+                <label for="teste1" class="">Teste</label>
+            </p>
+        </div>
+    </main>
 
     <script src="assets/js/scripts.js"></script>
 </body>
