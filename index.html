@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -18,15 +18,11 @@
     </header>
 
     <main>
-        <form name="form-tarefas" id="formTarefas">
-            <input type="text" name="txtNovaTarefa" id="txtNovaTarefa" class="textbox">
-            <button type="submit" id="btnAdicionar">Adicionar</button>
-        </form>
-        <div id="tarefas" class="tarefas">
-            <p>
-                <input type="checkbox" name="teste1" id="teste1">
-                <label for="teste1" class="">Teste</label>
-            </p>
+        <div if="ADD_NewTask">
+            <input type="text" placeholder="Digite aqui sua tarefa" name="input_NewTask" id="input_NewTas" class="textbox">
+            <button type="button" id="bnt_add">Adicionar</button>
+        </div>
+        <div id="align_Tasks" class="Tasks">
         </div>
     </main>
 

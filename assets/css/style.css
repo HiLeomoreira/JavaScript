@@ -68,6 +68,14 @@ button:active {
     border-radius: 4px;
     height: 25px;
     width: 300px;
+    padding-left: 5px;
+}
+
+.task {
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    gap: 10px 10px;
 }
 
 .checked {
