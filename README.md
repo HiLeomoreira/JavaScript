@@ -1,8 +1,13 @@
-# To-Do List ⏰
+# 🎯 Desafios de JavaScript
 
-**Abaixo, a descriçao dos commits deste desafio**:
- - Primeiro commit com js do desafio cria e adiciona os itens a lista de tarefas.
- - Segundo commit do desafio da a opçao de marcar as tarefas concluídas;
+O objetivo deste repositório é incluir codificações simples de JS para consulta. 
 
 _____
-<div align="center"> _ apenas deste desafio | Este repositórios contém varios cod. de desafios ddiferentes _ </div>
+
+<div>
+
+01. <a href="01. To-do list/">To-do list</a>:
+    - Objetivo - criar uma lista de tarefas; 
+    - Permite realizar a inclusão de novas taferas e _rircar_ as tarefas que já foram concluídas.
+
+ </div>
