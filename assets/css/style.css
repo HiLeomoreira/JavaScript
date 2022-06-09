@@ -80,4 +80,5 @@ button:active {
 
 .checked {
     text-decoration: line-through;
+    color: red;
 }
